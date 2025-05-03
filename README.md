@@ -75,6 +75,7 @@ The application expects a CSV file (like `ALL_llama_new_question_level_analysis_
 5.  **Using the App:**
     * Open the URL provided by Streamlit (usually `http://localhost:8501`) in your browser.
     * Use the sidebar to:
+        * Load the data csv file   
         * Select the specific `Model Name` and `Training Status` to analyze.
         * Apply additional filters if needed.
         * Optionally select ONE parameter to group the analysis by.
@@ -83,15 +84,7 @@ The application expects a CSV file (like `ALL_llama_new_question_level_analysis_
     * Use the "Customize Plot Appearance" expander to fine-tune visualizations.
     * Download plots using the export buttons.
 
-## Dependencies
 
-The main libraries used are:
-
-* Streamlit
-* Pandas
-* Plotly
-* NumPy
-* SciPy (used implicitly by other libraries, good practice to include)
 
 
 
