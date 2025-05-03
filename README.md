@@ -1,4 +1,5 @@
 # Bar Exam Model Bias Analysis Dashboard
+**Note** : The result data from inference runs that is to be analysed, can be downloaded from [this Huggingface LFS repo](https://huggingface.co/datasets/HolySaint/mcq_bias_analysis_data/blob/main/ALL_llama_new_question_level_analysis_results.csv) 
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://model-accuracy-analyser-9rjrrn7fnmpnngw9jxx7re.streamlit.app/)This Streamlit appprovides an interactive dashboard focused on analyzing potential biases in model answer selections for multiple-choice questions. It's designed to explore how different model configurations might favor certain answer options (A, B, C, D) compared to the ground truth distribution. I  created and used this in my paper [A Llama walks into the 'Bar': Efficient Supervised Fine-Tuning for Legal Reasoning in the Multi-state Bar Exam](https://arxiv.org/abs/2504.04945) as a supplementary tool to analyse the effect of supervised fine-tuning on the inherent preference towards certain options, and how SFT mitigates that.
 
